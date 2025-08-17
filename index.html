@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <title>Mainak | Portfolio</title>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <!-- Header -->
+  <header>
+    <h1>Photography & Graphic Design Portfolio</h1>
+  </header>
+
+  <!-- Navigation -->
+  <nav>
+    <a href="#home" class="nav-link">Home</a>
+    <a href="#about" class="nav-link">About</a>
+    <a href="#gallery" class="nav-link">Gallery</a>
+    <a href="#design" class="nav-link">Graphics</a>
+    <a href="#contact" class="nav-link">Contact</a>
+  </nav>
+
+
+  <!-- Home Section -->
+  <section id="home">
+  <div class="section-heading">Welcome to My Portfolio</div>
+  <div class="section-content">
+    <p>
+      Hi, I'm <b>Mainak</b> — a <b>Backend Developer</b>, <b>Photographer</b>, and <b>Graphic Designer</b>.
+    </p>
+    <p>
+      I love turning ideas into code, capturing moments through my lens, and designing visuals that connect with people.
+    </p>
+  </div>
+
+  <div class="profile-section">
+    <div class="profile-card">
+      <img src="./mainak.jpg" alt="Mainak" class="profile-img">
+      <h2>Mainak Maity</h2>
+      <p class="tagline">Developer | Photographer | Designer</p>
+      <div class="profile-links">
+        <a href="#gallery" class="btn">My Photography</a>
+        <a href="#design" class="btn">My Designs</a>
+        <a href="https://mainakmaity01.github.io/portfolio/" class="btn" target="_blank">My Personal Info</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- About Section -->
+  <section id="about">
+    <div class="section-heading">About Me</div>
+    <div class="section-content">
+      <p>
+        I combine the worlds of <b>photography</b> and <b>graphic design</b> to create visuals that connect and inspire.
+      </p>
+      <p>
+        📸 <b>Photography:</b> I focus on candid emotions, breathtaking landscapes, and everyday details that tell stories.  
+      </p>
+      <p>
+        🎨 <b>Graphic Design:</b> From posters and logos to digital art and branding, I design with purpose and creativity.  
+      </p>
+      <p>
+        For me, creativity isn’t just about visuals. It’s about storytelling, emotion, and leaving a lasting impression.
+      </p>
+    </div>
+  </section>
+
+  <!-- Photography Gallery -->
+  <section id="gallery">
+    <div class="section-heading" id="Gallery-head">Photography</div>
+    <div class="slideshow-container">
+      <div class="mySlides fade">
+        <img src="./photo 1.jpeg" style="width:100%" alt="Gallery Image 1">
+      </div>
+      <div class="mySlides fade">
+        <img src="./photo 2.jpeg" style="width:100%" alt="Gallery Image 2">
+      </div>
+      <div class="mySlides fade">
+        <img src="./photo 3.jpeg" style="width:100%" alt="Gallery Image 3">
+      </div>
+      <div class="mySlides fade">
+        <img src="./photo 4.jpeg" style="width:100%" alt="Gallery Image 4">
+      </div>
+      <div class="mySlides fade">
+        <img src="./photo 5.jpeg" style="width:100%" alt="Gallery Image 5">
+      </div>
+      <div class="mySlides fade">
+        <img src="./photo 6.jpeg" style="width:100%" alt="Gallery Image 6">
+      </div>
+
+      <!-- Prev/Next -->
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+    <div class="dots">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+      <span class="dot" onclick="currentSlide(4)"></span>
+      <span class="dot" onclick="currentSlide(5)"></span>
+      <span class="dot" onclick="currentSlide(6)"></span>
+    </div>
+  </section>
+
+  <!-- Graphic Design Section -->
+  <section id="design">
+    <div class="section-heading">Graphic Design Portfolio</div>
+    <div class="design-grid">
+      <div class="design-item">
+        <img src="./photo 7.jpg" alt="Poster Design">
+        <div class="design-overlay">
+          <h3>Poster Design</h3>
+          <p>Created in Figma</p>
+        </div>
+      </div>
+      <div class="design-item">
+        <img src="./photo 8.jpg" alt="Logo Design">
+        <div class="design-overlay">
+          <h3>Poster Design</h3>
+          <p>Created in Photoshop</p>
+        </div>
+      </div>
+      <div class="design-item">
+        <img src="./photo 9.jpg" alt="Social Media Banner">
+        <div class="design-overlay">
+          <h3>Poster Design</h3>
+          <p>Created in Figma</p>
+        </div>
+      </div>
+      <div class="design-item">
+        <img src="./photo 11.jpg" alt="Business Card">
+        <div class="design-overlay">
+          <h3>Poster Design</h3>
+          <p>Created in Photoshop</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Team Section -->
+  <section id="team">
+  <div class="section-heading">Team & Collaborations</div>
+  <div class="team-grid">
+    <div class="team-card">
+      <img src="./Ramit.jpg" alt="Ramit">
+      <div class="team-info">
+        <h4>Ramit</h4>
+        <p>Photographer</p>
+      </div>
+    </div>
+    <div class="team-card">
+      <img src="./suman.jpg" alt="Suman">
+      <div class="team-info">
+        <h4>Suman</h4>
+        <p>Designer</p>
+      </div>
+    </div>
+    <div class="team-card">
+      <img src="./Soahm.jpg" alt="Soham">
+      <div class="team-info">
+        <h4>Soham</h4>
+        <p>Collaborator</p>
+      </div>
+    </div>
+    <div class="team-card">
+      <img src="./yogita.jpg" alt="Yogita">
+      <div class="team-info">
+        <h4>Yogita</h4>
+        <p>Creative Partner</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="section-heading">Contact Me</div>
+    <div class="contact-us">
+      <div class="get-in-touch">
+        <p>Email: mainakmaity01@gmail.com</p>
+        <p>Phone: +91-7548915965</p>
+        <div class="social-icons">
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-youtube"></i>
+          <i class="fa-brands fa-pinterest"></i>
+          <i class="fa-brands fa-whatsapp"></i>
+          <i class="fa-brands fa-github"></i>
+        </div>
+      </div>
+      <div class="form">
+        <form id="contactForm">
+          <label for="name">Name</label>
+          <input type="text" id="name" required placeholder="Enter your name">
+
+          <label for="email">Email</label>
+          <input type="email" id="email" required placeholder="Enter your email">
+
+          <label for="sub">Subject</label>
+          <input type="text" id="sub" placeholder="Enter subject">
+
+          <label for="msg">Message</label>
+          <textarea id="msg" rows="5" required placeholder="Write your message"></textarea>
+
+          <div class="btn-container">
+            <button type="submit" class="button">Submit</button>
+            <button type="reset" class="button">Reset</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Mainak's Portfolio. All rights reserved.</p>
+    <button onclick="scrollToTop()" class="top-btn">⬆</button>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://kit.fontawesome.com/3f3e9bade1.js" crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
